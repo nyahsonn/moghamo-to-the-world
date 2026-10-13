@@ -7,6 +7,7 @@ const placeholderSponsors = [
   "Ashong",
   "Tetunjei",
   "Enyoh",
+  "and many more",
 ];
 
 export default function Sponsors() {
@@ -22,7 +23,7 @@ export default function Sponsors() {
           fund it.
         </p>
 
-        <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-6">
+        <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4 md:grid-cols-7">
           {placeholderSponsors.map((name, i) => (
             <div
               key={i}
