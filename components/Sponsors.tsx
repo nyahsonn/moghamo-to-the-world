@@ -1,13 +1,12 @@
-// TODO: replace these placeholder slots with real village association
-// logos/names once they're gathered. Add or remove entries as needed —
-// each one just needs a name for now.
+// TODO: swap each name below for its real association logo image once
+// gathered — until then, the name itself is shown as the logo.
 const placeholderSponsors = [
-  "Your Village Association",
-  "Village Association",
-  "Village Association",
-  "Village Association",
-  "Village Association",
-  "Village Association",
+  "Batibo",
+  "Guzang",
+  "Bessi",
+  "Ashong",
+  "Tetunjei",
+  "Enyoh",
 ];
 
 export default function Sponsors() {
@@ -27,9 +26,9 @@ export default function Sponsors() {
           {placeholderSponsors.map((name, i) => (
             <div
               key={i}
-              className="flex aspect-square items-center justify-center rounded-xl border-2 border-dashed border-bark/20 bg-bark/[0.03] p-3 text-center text-xs font-semibold text-bark/40"
+              className="flex aspect-square items-center justify-center rounded-xl border border-bark/15 bg-bark/[0.03] p-3 text-center font-heading text-lg font-extrabold text-bark sm:text-xl"
             >
-              {name} Logo
+              {name}
             </div>
           ))}
         </div>

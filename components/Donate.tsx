@@ -64,7 +64,7 @@ export default function Donate() {
 
         <p className="mt-10 text-xs text-cream/50">
           Donation buttons are placeholders for now and will link to secure
-          Stripe checkout pages once they're set up.
+          Stripe checkout pages once they&apos;re set up.
         </p>
       </div>
     </section>

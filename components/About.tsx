@@ -1,14 +1,3 @@
-function TodoBlock({ children }: { children: React.ReactNode }) {
-  return (
-    <div className="rounded-xl border-2 border-dashed border-ochre/60 bg-ochre/10 p-5 text-sm text-bark/70">
-      <p className="mb-2 font-heading text-xs font-bold uppercase tracking-wide text-terracotta">
-        TODO — replace with real content
-      </p>
-      {children}
-    </div>
-  );
-}
-
 export default function About() {
   return (
     <section id="about" className="bg-cream px-6 py-24">
@@ -22,26 +11,40 @@ export default function About() {
             <h3 className="font-heading text-xl font-bold text-terracotta">
               Who We Are
             </h3>
-            <TodoBlock>
-              <p>
-                Write a short paragraph introducing the Moghamo people —
-                where the community is from, and a welcoming line for
-                visitors who may be discovering Moghamo for the first time.
-              </p>
-            </TodoBlock>
+            <p className="mt-3 leading-relaxed text-bark/85">
+              The Moghamo people trace their homeland to the Momo Division
+              of Cameroon&apos;s North West Region — a cluster of villages,
+              including Batibo, Guzang, Bessi, Ashong, Tetunjei, and Enyoh
+              among its main villages, with several other villages
+              rounding out the wider Moghamo homeland — all bound together
+              by a shared language, customs, and history. Over
+              generations, Moghamo families have settled across
+              Cameroon and around the world, from Yaoundé and Douala to
+              cities across Europe and North America. Wherever you&apos;re
+              joining us from — whether you grew up in a Moghamo village or
+              you&apos;re a grandchild of the diaspora encountering this
+              heritage for the first time — welcome. This is your home too.
+            </p>
           </div>
 
           <div>
             <h3 className="font-heading text-xl font-bold text-terracotta">
               Why the Language Must Be Preserved
             </h3>
-            <TodoBlock>
-              <p>
-                Write a paragraph on what is at risk if the Moghamo language
-                stops being passed down, and why it matters that children
-                growing up abroad still learn to speak, read, and write it.
-              </p>
-            </TodoBlock>
+            <p className="mt-3 leading-relaxed text-bark/85">
+              Language carries more than words — it carries the proverbs,
+              songs, and ways of greeting elders that hold a culture
+              together. When a generation stops speaking Moghamo, the
+              stories, farming wisdom, and oral history passed down through
+              it can disappear within a single lifetime. Many children
+              growing up outside Cameroon hear Moghamo spoken at home but
+              never learn to read or write it themselves, and risk losing
+              the language altogether. Preserving it now, in a form their
+              children and grandchildren can reach from anywhere, is how we
+              keep Moghamo identity alive for generations who may never set
+              foot in the village but should never feel disconnected from
+              it.
+            </p>
           </div>
 
           <div>
@@ -69,16 +72,20 @@ export default function About() {
               sized to its membership, which its leadership distributes
               internally — so no member ever has to pay to learn.
             </p>
-            <div className="mt-4">
-              <TodoBlock>
-                <p>
-                  Add a paragraph here on the broader role village
-                  associations play in Moghamo community life beyond
-                  funding — their history, and why they are the backbone of
-                  this project.
-                </p>
-              </TodoBlock>
-            </div>
+            <p className="mt-4 leading-relaxed text-bark/85">
+              Long before this platform existed, village associations were
+              already the structure holding Moghamo communities together
+              far from home — organizing members in the diaspora, raising
+              funds for projects back home, settling disputes, and marking
+              births, weddings, and funerals with the same rites observed
+              in the village. They are run by volunteers, sustained by
+              membership dues, and trusted precisely because they answer to
+              their own members. That same trust is what makes them the
+              natural foundation for this project: by directing a portion
+              of association dues here, village leadership turns an
+              existing community bond into the engine that keeps language
+              education free for everyone, everywhere.
+            </p>
           </div>
         </div>
       </div>
