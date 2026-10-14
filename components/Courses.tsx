@@ -43,9 +43,9 @@ export default function Courses() {
     <section id="courses" className="bg-bark/[0.03] px-6 py-24">
       <div className="mx-auto max-w-6xl">
         <div className="max-w-2xl">
-          <h2 className="font-heading text-3xl font-bold text-bark sm:text-4xl">
+          <h1 className="font-heading text-3xl font-bold text-bark sm:text-4xl">
             What You Can Learn
-          </h2>
+          </h1>
           <p className="mt-4 text-bark/75">
             Every course is free, self-paced, and open to children and
             adults alike. Courses launch on{" "}

@@ -7,9 +7,9 @@ export default function Donate() {
   return (
     <section id="donate" className="bg-bark px-6 py-24 text-cream">
       <div className="mx-auto max-w-3xl text-center">
-        <h2 className="font-heading text-3xl font-bold sm:text-4xl">
+        <h1 className="font-heading text-3xl font-bold sm:text-4xl">
           Help Keep This Free
-        </h2>
+        </h1>
         <p className="mt-4 text-cream/80">
           Moghamo To The World is 100% free for every learner, funded
           entirely by village associations and community donations like

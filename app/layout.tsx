@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Lora, Nunito } from "next/font/google";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import "./globals.css";
 
 const lora = Lora({
@@ -15,7 +17,10 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Moghamo To The World",
+  title: {
+    default: "Moghamo To The World",
+    template: "%s | Moghamo To The World",
+  },
   description:
     "Free online courses preserving the Moghamo language, culture, and history for children and adults — for current and future generations, including the global Moghamo diaspora.",
 };
@@ -28,7 +33,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${lora.variable} ${nunito.variable} antialiased`}>
-        {children}
+        <Header />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

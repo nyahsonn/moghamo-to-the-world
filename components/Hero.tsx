@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { START_LEARNING_URL } from "@/lib/links";
 
 export default function Hero() {
@@ -25,12 +26,12 @@ export default function Hero() {
           >
             Start Learning
           </a>
-          <a
-            href="#donate"
+          <Link
+            href="/donate"
             className="rounded-full border-2 border-cream px-8 py-3 text-base font-bold text-cream transition hover:bg-cream hover:text-bark"
           >
             Donate Now
-          </a>
+          </Link>
         </div>
       </div>
     </section>

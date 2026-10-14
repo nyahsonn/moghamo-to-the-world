@@ -2,9 +2,9 @@ export default function About() {
   return (
     <section id="about" className="bg-cream px-6 py-24">
       <div className="mx-auto max-w-4xl">
-        <h2 className="font-heading text-3xl font-bold text-bark sm:text-4xl">
+        <h1 className="font-heading text-3xl font-bold text-bark sm:text-4xl">
           About Moghamo To The World
-        </h2>
+        </h1>
 
         <div className="mt-10 grid gap-10">
           <div>
